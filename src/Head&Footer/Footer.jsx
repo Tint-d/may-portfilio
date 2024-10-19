@@ -27,9 +27,9 @@ const Footer = () => {
           <FaGithub />
         </a>
       </div> */}
-      <div className=" sm:justify-center h-[5vh] sm:pt-0 rounded-t-sm flex flex-col sm:flex-row items-center gap-5 bg-slate-200">
+      <div className=" sm:justify-center sm:flex-row  h-[5vh] sm:pt-0 rounded-t-sm flex flex-col items-center gap-5 bg-slate-200">
         <div>
-          <p className="sm:text-[15px] text-[10px] font-bold text-center main-text-color ">
+          <p className="sm:text-[8px] sm:font-semibold md:text-sm text-center main-text-color ">
             Copyright © {new Date().getFullYear()} - All right reserved by
             TintZawHtun
           </p>

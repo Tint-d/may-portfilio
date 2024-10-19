@@ -23,20 +23,19 @@ const About = () => {
               />
             </h2>
             <hr className="sm:w-36 w-20 border-[rgb(224,36,36)] border-b-2 mb-5" />
-            <h1>
-              Welcome to my portfolio! As a skilled MERN stack developer, I
-              bring a unique blend of expertise and creativity to the table. I
-              am committed to collaborating with your company to craft
-              exceptional results that align with your objectives. From
-              conceptualization to deployment, I am focused on delivering
-              top-notch solutions that cater to the specific requirements of
-              your clients. Explore more about me below and delve into the
-              details of the projects I've worked on!
+            <h1 className=" tracking-wider leading-8">
+              As a skilled MERN stack developer, I bring a unique combination of
+              expertise and creativity to the table. I am dedicated to
+              collaborating with your company to achieve exceptional results
+              that align with your goals. From conceptualization to deployment,
+              I focus on delivering top-notch solutions tailored to your
+              clients' specific needs. Explore more about me below and discover
+              the details of the projects I've worked on!
             </h1>
           </div>
 
           {/* animation */}
-          <img src={animation4} className="sm:w-1/5 sm:" alt="" />
+          <img src={animation4} className="sm:w-1/5" alt="" />
         </div>
 
         {/* experince */}
@@ -54,13 +53,15 @@ const About = () => {
             {Data.map((card) => {
               return (
                 <div key={card.id} className="sm:w-2/6 py-5 sm:px-5">
-                  <div className="bg-white text-black/40 hover:text-red-600/80 rounded-md hover:bg-zinc-200 transition duration-150 p-5">
-                    <h4>{card.date}Present</h4>
+                  <div className="bg-white text-black hover:text-red-600 rounded-md hover:bg-zinc-200 transition duration-150 p-5">
+                    <h4>{card.date}</h4>
                     <div className=" p-3">
                       <h2 className="font-bold text-xl mb-2 main-text-color">
                         {card.title}
                       </h2>
-                      <p className="text-[13px] sm:text-base">{card.cate}</p>
+                      <p className="text-[12px]  leading-8 tracking-wide ">
+                        {card.cate}
+                      </p>
                     </div>
                   </div>
                 </div>

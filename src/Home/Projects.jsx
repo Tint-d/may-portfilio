@@ -15,9 +15,12 @@ const Projects = () => {
         </p>
       </div>
       <div className="p-5 sm:justify-around sm:flex sm:flex-row sm:flex-wrap flex flex-col items-center gap-5 ">
-        {ProjectsDisplay.map((pj) => {
+        {ProjectsDisplay.map((pj, index) => {
           return (
-            <div className="shadow-lg backdrop-blur-sm bg-white/10 sm:w-[70%] sm:h-[50vh] rounded-lg flex flex-col sm:flex-row">
+            <div
+              key={index}
+              className="shadow-lg backdrop-blur-sm bg-white/10 sm:w-[70%] sm:h-[50vh] rounded-lg flex flex-col sm:flex-row"
+            >
               <div className=" sm:w-6/12 h-6/12 sm:h-[100%] sm:relative overflow-visible flex items-center">
                 <img
                   className="sm:rounded-lg rounded-t-lg object-cover object-top sm:absolute w-[100%] z-40 sm:left-[-100px] "
@@ -33,7 +36,10 @@ const Projects = () => {
                   <p className="text-base text-red-500 flex items-center">
                     {pj.site_link && (
                       <>
-                        ( <a className="text-white" href={pj?.site_link}>On site link</a>
+                        ({" "}
+                        <a className="text-white" href={pj?.site_link}>
+                          On site link
+                        </a>
                         <PiCursorClickLight className="text-white" /> )
                       </>
                     )}

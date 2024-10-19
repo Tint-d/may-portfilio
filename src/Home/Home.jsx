@@ -43,16 +43,16 @@ const Home = ({ scrollToSection, setActiveSection }) => {
         <div className="sm:w-8/12 sm:p-20 p-4 flex flex-col gap-5 sm:gap-16">
           {/* intro */}
           <div className=" flex flex-col gap-2">
-            <h2 className="sm:text-4xl text-xl font-bold">
+            <h2 className="sm:text-4xl text-2xl font-bold">
               Hi, I'm Tint Zaw Htun!
             </h2>
-            <h1 className="sm:text-6xl text-2xl font-semibold">
-              Web Developer
-            </h1>
-            <p className="sm:text-[25px] text-[15px]">
-              I'm mern stack based fullstack web developer with
-              <span className="main-text-color font-bold">over 1 years</span> of
-              experince
+            <h1 className="sm:text-6xl text-xl font-semibold">Web Developer</h1>
+            <p className="sm:text-[25px] text-[15px] tracking-wide">
+              I'm a MERN stack-based full-stack web developer with
+              <span className="main-text-color font-bold ml-2">
+                over 2 years
+              </span>{" "}
+              of of experince
             </p>
           </div>
           {/* button count up and chart  */}
@@ -81,7 +81,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                     <div className=" w-full flex flex-col justify-center items-center text-sm p-1">
                       <h1 className="sm:text-lg text-xl">
                         {count && (
-                          <CountUp start={0} end={1} duration={5} delay={0.5} />
+                          <CountUp start={0} end={2} duration={5} delay={0.5} />
                         )}
                         +
                       </h1>
@@ -156,27 +156,31 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 <img
                   data-atropos-offset="3"
                   src={me}
-                  alt=""
+                  alt="user"
                   className=" object-center object-cover rounded-md w-full h-[500px] shadow-lg"
                 />
                 <img
                   data-atropos-offset="3"
                   src={figma}
+                  alt="Figma logo"
                   className="absolute -right-6 top-3 lg:right-0 xl:-top-10 xl:right-10 w-16 h-16 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
                   src={tailwind}
+                  alt="tailwind"
                   className="absolute bottom-0 -right-5 w-16 h-16  lg:-bottom-3  lg:right-0 xl:bottom-8 xl:-right-5 lg:w-20 lg:h-20 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
                   src={reactLogo}
+                  alt="react-logo"
                   className="absolute w-16 h-16 top-4 -left-5 xl:top-10 xl:-left-10 lg:w-20 lg:h-20 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
                   src={github}
+                  alt="github-logo"
                   className="absolute -left-6 -bottom-3 lg:bottom-6 lg:left-0 xl:-bottom-5 xl:left-6 w-16 h-16  shadow-xl"
                 />
               </div>

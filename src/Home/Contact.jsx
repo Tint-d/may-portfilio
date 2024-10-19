@@ -45,7 +45,7 @@ const Contact = () => {
     <>
       {/* title  */}
       <div className="p-5 sm:flex sm:mb-10 flex flex-col">
-        <h2 className="sm:text-4xl text-2xl sm:mb-2 main-text-color font-bold">
+        <h2 className="sm:text-4xl sm:mb-2 text-2xl main-text-color font-bold">
           -Let's Connect
         </h2>
         <p className="sm:text-2xl text-lg sm:ml-10 ml-5">Connect To ME</p>
@@ -55,32 +55,32 @@ const Contact = () => {
       <div className="p-5 sm:flex  mb-10">
         {/* cate  */}
         <div className="sm:w-3/5 mb-5 p-5">
-          <p>
-            Thank you for your attention. I am thrilled about the prospect of
-            collaborating with you to bring your vision to fruition. With over 1
-            year of experience as a MERN stack developer, I've successfully
-            contributed to a diverse range of projects, spanning from small
-            business websites to extensive e-commerce platforms. My skill set
-            encompasses front-end development, back-end development, and
-            proficient maintenance of websites. I am well-versed in programming
-            languages such as HTML, CSS, JavaScript, React ,Next ,Node
-            ,Express,Mongoose,Prisma, MongoDB,Postgresql and Reddis. Recognizing
-            that effective communication is fundamental to project success, I am
-            dedicated to keeping you well-informed throughout the development
-            process. I am committed to working closely with you to ensure that
-            your website not only meets your specific requirements but also
-            surpasses your expectations. My objective is to deliver a
-            high-quality website that not only boasts an appealing design but
-            also performs seamlessly. I am confident that my skills and
-            expertise align perfectly with your project needs. Thank you for
-            considering my application, and I eagerly anticipate the opportunity
-            to collaborate with you.
+          <p className="leading-8 text-sm">
+            Thank you for your attention. I am excited about the opportunity to
+            collaborate with you and bring your vision to life. With over a year
+            of experience as a MERN stack developer, I have successfully
+            contributed to a wide range of projects, from small business
+            websites to large-scale e-commerce platforms. My expertise spans
+            front-end development, back-end development, and website
+            maintenance. I am proficient in programming languages and
+            technologies such as HTML, CSS, JavaScript, React, Next.js, Node.js,
+            Express, Mongoose, Prisma, MongoDB, PostgreSQL, and Redis. I
+            recognize that effective communication is key to a project's
+            success, and I am committed to keeping you informed throughout the
+            development process. <br />I aim to work closely with you to ensure
+            that your website not only meets your specific requirements but also
+            exceeds your expectations. My goal is to deliver a high-quality
+            website that combines an attractive design with seamless
+            functionality. I am confident that my skills and experience align
+            perfectly with your project needs. <br />
+            Thank you for considering my application. I look forward to the
+            opportunity to collaborate with you.
           </p>
           <div className="sm:flex sm:justify-center sm:items-center">
             <img src={animation3} className=" sm:w-64" alt="" />
             {/* information */}
             <div>
-              <div className=" pl-2 sm:text-[20px] mb-5 text-[10px] border-l-4 border-l-[rgb(224,36,36)]">
+              <div className=" pl-2 sm:text-[20px] mb-5 md:text-[15px] border-l-4 border-l-[rgb(224,36,36)]">
                 <p>+95 976 299 3470</p>
                 <p>98tintzawhtun@gmail.com </p>
                 <p>Yangon,TharKayTa</p>

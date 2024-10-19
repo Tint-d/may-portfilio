@@ -3,7 +3,7 @@ import ReactApexChart from "react-apexcharts";
 
 const RadialBarChart = () => {
   const options = {
-    series: [80, 76, 74, 40, 81, 60],
+    series: [90, 96, 80, 100, 81, 99],
     chart: {
       height: 350,
       width: 600,
