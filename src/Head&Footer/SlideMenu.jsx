@@ -10,7 +10,7 @@ const SlideMenu = ({ activeSection, setActiveSection, scrollToSection }) => {
       <img
         className=" w-[100%] object-top h-[30vh] rounded-sm object-cover"
         src={profile}
-        alt=""
+        alt="profile"
       />
 
       {/* Slide menu and footer and animation  */}
@@ -86,7 +86,7 @@ const SlideMenu = ({ activeSection, setActiveSection, scrollToSection }) => {
         <img
           className=" hidden md:block h-44 object-contain"
           src={ani}
-          alt=""
+          alt="ani-10"
         />
       </div>
       <Footer />

@@ -235,27 +235,31 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 <img
                   data-atropos-offset="3"
                   src={me}
-                  alt=""
+                  alt="user-1"
                   className=" object-center object-cover rounded-md w-full h-[500px] shadow-lg"
                 />
                 <img
                   data-atropos-offset="3"
                   src={figma}
+                  alt="Figma-m"
                   className="absolute -right-6 top-3 lg:right-0 xl:-top-10 xl:right-10 w-16 h-16 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
                   src={tailwind}
+                  alt="tailwind-m"
                   className="absolute bottom-0 -right-5 w-16 h-16  lg:-bottom-3  lg:right-0 xl:bottom-8 xl:-right-5 lg:w-20 lg:h-20 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
                   src={reactLogo}
+                  alt="react-m"
                   className="absolute w-16 h-16 top-4 -left-5 xl:top-10 xl:-left-10 lg:w-20 lg:h-20 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
                   src={github}
+                  alt="github-m"
                   className="absolute -left-6 -bottom-3 lg:bottom-6 lg:left-0 xl:-bottom-5 xl:left-6 w-16 h-16  shadow-xl"
                 />
               </div>

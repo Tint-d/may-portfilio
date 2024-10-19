@@ -35,7 +35,7 @@ const About = () => {
           </div>
 
           {/* animation */}
-          <img src={animation4} className="sm:w-1/5" alt="" />
+          <img src={animation4} className="sm:w-1/5" alt="animation" />
         </div>
 
         {/* experince */}

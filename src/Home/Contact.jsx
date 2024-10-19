@@ -77,7 +77,7 @@ const Contact = () => {
             opportunity to collaborate with you.
           </p>
           <div className="sm:flex sm:justify-center sm:items-center">
-            <img src={animation3} className=" sm:w-64" alt="" />
+            <img src={animation3} className=" sm:w-64" alt="animation-3" />
             {/* information */}
             <div>
               <div className=" pl-2 sm:text-[20px] mb-5 md:text-[15px] border-l-4 border-l-[rgb(224,36,36)]">
