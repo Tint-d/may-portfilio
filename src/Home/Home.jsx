@@ -52,7 +52,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
               <span className="main-text-color font-bold ml-2">
                 over 2 years
               </span>{" "}
-              of of experince
+              of experince
             </p>
           </div>
           {/* button count up and chart  */}
