@@ -130,9 +130,9 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 data-atropos-offset="3"
                 className="flex gap-5 flex-col sm:flex-row justify-around items-center"
               >
-                <a href={Cv} download="MayPhooMaung_Cv">
+                {/* <a href={Cv} download="MayPhooMaung_Cv">
                   <CustomizeButton> Download CV</CustomizeButton>
-                </a>
+                </a> */}
                 <div
                   onClick={() => {
                     scrollToSection("connect"), setActiveSection("connect");
