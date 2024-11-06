@@ -57,32 +57,31 @@ const Contact = () => {
         <div className="sm:w-3/5 mb-5 p-5">
           <p className="leading-8 text-sm">
             Thank you for your attention. I am excited about the opportunity to
-            collaborate with you and bring your vision to life. With over a year
-            of experience as a MERN stack developer, I have successfully
-            contributed to a wide range of projects, from small business
-            websites to large-scale e-commerce platforms. My expertise spans
-            front-end development, back-end development, and website
-            maintenance. I am proficient in programming languages and
-            technologies such as HTML, CSS, JavaScript, React, Next.js, Node.js,
-            Express, Mongoose, Prisma, MongoDB, PostgreSQL, and Redis. I
-            recognize that effective communication is key to a project's
-            success, and I am committed to keeping you informed throughout the
-            development process. <br />I aim to work closely with you to ensure
-            that your website not only meets your specific requirements but also
-            exceeds your expectations. My goal is to deliver a high-quality
-            website that combines an attractive design with seamless
-            functionality. I am confident that my skills and experience align
-            perfectly with your project needs. <br />
-            Thank you for considering my application. I look forward to the
-            opportunity to collaborate with you.
+            collaborate with you and support your financial and accounting
+            goals. With a solid foundation in financial management, including a
+            Diploma in Financial & Management Accounting from the National
+            Management Academy, I have gained essential expertise in financial
+            reporting, budgeting, cost analysis, and accounting best practices.
+            In addition to my formal education, I have a commitment to
+            continuing my professional development, currently pursuing the ACCA
+            certification. My knowledge of financial software, including Excel,
+            allows me to efficiently manage complex financial data, ensuring
+            accuracy and clarity in all reports. I recognize that effective
+            communication is essential in the accounting profession, and I am
+            dedicated to maintaining clear and transparent communication with
+            clients and teams alike. I am confident that my attention to detail,
+            coupled with my proactive approach to financial management, will
+            make me a valuable asset to your team. Thank you for considering my
+            application. I look forward to the opportunity to collaborate and
+            contribute to your financial objectives.
           </p>
           <div className="sm:flex sm:justify-center sm:items-center">
             <img src={animation3} className=" sm:w-64" alt="animation-3" />
             {/* information */}
             <div>
               <div className=" pl-2 sm:text-[20px] mb-5 md:text-[15px] border-l-4 border-l-[rgb(224,36,36)]">
-                <p>+95 976 299 3470</p>
-                <p>98tintzawhtun@gmail.com </p>
+                <p>+95 978 315 1788</p>
+                <p>mayphoomaung077@gmail.com</p>
                 <p>Yangon,TharKayTa</p>
               </div>
             </div>

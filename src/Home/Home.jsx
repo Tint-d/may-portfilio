@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Cv from "../assets/img/Cv.pdf";
+// import Cv from "../assets/img/Cv.pdf";
 import { motion } from "../../node_modules/framer-motion";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
@@ -8,23 +8,30 @@ import PolarAreaChart from "../components/Chart";
 import Atropos from "atropos/react";
 import profile from "../assets/img/profile.jpg";
 import figma from "../assets/img/attachments/figma.svg";
-import me from "../assets/img/me.jpg";
+// import me from "../assets/img/me.jpg";
+import me from "../assets/img/may-profile.jpg";
 import github from "../assets/img/attachments/github.svg";
 import tailwind from "../assets/img/attachments/tailwind.svg";
 import reactLogo from "../assets/img/attachments/reactLogo.svg";
+import cloud from "../assets/img/cloud.jpg";
+import sheet from "../assets/img/sheet-icon.png";
+import excel from "../assets/img/excel.png";
+import analytic from "../assets/img/analytics.jpg";
+import Cv from "../assets/img/may.pdf";
 
 const Home = ({ scrollToSection, setActiveSection }) => {
   const [count, setCount] = useState(false);
 
   // for text animation
   const textGroups = [
-    "I'm  Full-Stack Developer",
-    "Frame-work for Front-end",
-    "React , Next, RTK , Tailwind , Bootstrap ",
-    "Frame-work for Back-end",
-    "NodeJs , Express Js, MongoDB , Postgresql,Reddis",
+    "I'm a Professional Accountant",
+    "Expert in Financial Analysis",
+    "Budgeting, Forecasting, Expense Management",
+    "Specialist in Accounting Software",
+    "QuickBooks, SAP, Excel, Oracle",
+    "Experience with Tax Compliance & Audits",
+    "Vendor & Supplier Payment Management",
   ];
-
   const [currentGroupIndex, setCurrentGroupIndex] = useState(0);
 
   useEffect(() => {
@@ -44,14 +51,14 @@ const Home = ({ scrollToSection, setActiveSection }) => {
           {/* intro */}
           <div className=" flex flex-col gap-2">
             <h2 className="sm:text-4xl text-2xl font-bold">
-              Hi, I'm Tint Zaw Htun!
+              Hi, I'm May Phoo Maung!
             </h2>
-            <h1 className="sm:text-6xl text-xl font-semibold">Web Developer</h1>
+            <h1 className="sm:text-6xl text-xl font-semibold">Accountant</h1>
             <p className="sm:text-[25px] text-[15px] tracking-wide">
-              I'm a MERN stack-based full-stack web developer with
+              I'm a senior accountant with
               <span className="main-text-color font-bold ml-2">
-                over 2 years
-              </span>{" "}
+                over 5 years
+              </span>
               of experince
             </p>
           </div>
@@ -81,7 +88,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                     <div className=" w-full flex flex-col justify-center items-center text-sm p-1">
                       <h1 className="sm:text-lg text-xl">
                         {count && (
-                          <CountUp start={0} end={2} duration={5} delay={0.5} />
+                          <CountUp start={0} end={5} duration={5} delay={0.5} />
                         )}
                         +
                       </h1>
@@ -99,7 +106,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                         )}
                         +
                       </h1>
-                      <h2>PROJECT COMPLETED</h2>
+                      <h2>TRANSACTIONS MANAGED</h2>
                     </div>
                     <div className=" w-full flex flex-col justify-center items-center text-sm p-1">
                       <h1 className="sm:text-lg text-xl">
@@ -113,7 +120,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                         )}
                         +
                       </h1>
-                      <h2>HAPPY USERS</h2>
+                      <h2>SUCCESSFUL AUDITS</h2>
                     </div>
                   </div>
                 </ScrollTrigger>
@@ -123,7 +130,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 data-atropos-offset="3"
                 className="flex gap-5 flex-col sm:flex-row justify-around items-center"
               >
-                <a href={Cv} download="TintZawHtun_Cv">
+                <a href={Cv} download="MayPhooMaung_Cv">
                   <CustomizeButton> Download CV</CustomizeButton>
                 </a>
                 <div
@@ -161,27 +168,27 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 />
                 <img
                   data-atropos-offset="3"
-                  src={figma}
+                  src={excel}
                   alt="Figma logo"
-                  className="absolute -right-6 top-3 lg:right-0 xl:-top-10 xl:right-10 w-16 h-16 shadow-xl"
+                  className="absolute bg-black border border-white object-cover -right-6 top-3 lg:right-0 xl:-top-10 xl:right-10 w-16 h-16 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
-                  src={tailwind}
+                  src={cloud}
                   alt="tailwind"
-                  className="absolute bottom-0 -right-5 w-16 h-16  lg:-bottom-3  lg:right-0 xl:bottom-8 xl:-right-5 lg:w-20 lg:h-20 shadow-xl"
+                  className="absolute object-cover border border-white bottom-0 -right-5 w-16 h-16  lg:-bottom-3  lg:right-0 xl:bottom-8 xl:-right-5 lg:w-16 lg:h-16 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
-                  src={reactLogo}
+                  src={analytic}
                   alt="react-logo"
-                  className="absolute w-16 h-16 top-4 -left-5 xl:top-10 xl:-left-10 lg:w-20 lg:h-20 shadow-xl"
+                  className="absolute bg-black border border-black object-cover w-12 h-12 top-4 -left-5 xl:top-10 xl:-left-10 lg:w-16 lg:h-16 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
-                  src={github}
+                  src={excel}
                   alt="github-logo"
-                  className="absolute -left-6 -bottom-3 lg:bottom-6 lg:left-0 xl:-bottom-5 xl:left-6 w-16 h-16  shadow-xl"
+                  className="absolute bg-black border border-white object-cover -left-6 -bottom-3 lg:bottom-6 lg:left-0 xl:-bottom-5 xl:left-6 w-16 h-16  shadow-xl"
                 />
               </div>
             </Atropos>
@@ -246,21 +253,21 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 />
                 <img
                   data-atropos-offset="3"
-                  src={tailwind}
+                  src={cloud}
                   alt="tailwind-m"
-                  className="absolute bottom-0 -right-5 w-16 h-16  lg:-bottom-3  lg:right-0 xl:bottom-8 xl:-right-5 lg:w-20 lg:h-20 shadow-xl"
+                  className="absolute bg-black border border-white object-cover bottom-0 -right-5 w-16 h-16  lg:-bottom-3  lg:right-0 xl:bottom-8 xl:-right-5 lg:w-20 lg:h-20 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
-                  src={reactLogo}
+                  src={analytic}
                   alt="react-m"
-                  className="absolute w-16 h-16 top-4 -left-5 xl:top-10 xl:-left-10 lg:w-20 lg:h-20 shadow-xl"
+                  className="absolute bg-black border border-white object-cover w-16 h-16 top-4 -left-5 xl:top-10 xl:-left-10 lg:w-20 lg:h-20 shadow-xl"
                 />
                 <img
                   data-atropos-offset="3"
-                  src={github}
+                  src={excel}
                   alt="github-m"
-                  className="absolute -left-6 -bottom-3 lg:bottom-6 lg:left-0 xl:-bottom-5 xl:left-6 w-16 h-16  shadow-xl"
+                  className="absolute bg-black border border-white object-cover -left-6 -bottom-3 lg:bottom-6 lg:left-0 xl:-bottom-5 xl:left-6 w-16 h-16  shadow-xl"
                 />
               </div>
             </Atropos>

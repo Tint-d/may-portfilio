@@ -17,7 +17,7 @@ const Whole = () => {
     const sections = [
       { id: "home", ref: document.getElementById("home") },
       { id: "experience", ref: document.getElementById("experience") },
-      { id: "projects", ref: document.getElementById("projects") },
+      // { id: "projects", ref: document.getElementById("projects") },
       { id: "knowlage", ref: document.getElementById("knowlage") },
       { id: "connect", ref: document.getElementById("connect") },
     ];
@@ -66,8 +66,8 @@ const Whole = () => {
           title: "Experience",
           description: "Learn about my experience",
         };
-      case "projects":
-        return { title: "Projects", description: "View my projects" };
+      // case "projects":
+      //   return { title: "Projects", description: "View my projects" };
       case "knowlage":
         return { title: "Knowledge", description: "Testimonials" };
       case "connect":
@@ -138,9 +138,9 @@ const Whole = () => {
         <div id="experience">
           <About />
         </div>
-        <div id="projects">
+        {/* <div id="projects">
           <Projects />
-        </div>
+        </div> */}
         <div id="knowlage">
           <Testimonial />
         </div>

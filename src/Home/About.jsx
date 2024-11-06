@@ -3,6 +3,8 @@ import { useState } from "react";
 import ReactTyped from "react-typed";
 import { Data } from "../assets/PresentData";
 import animation4 from "../assets/img/animation4.gif";
+import experience from "../assets/img/experience.png";
+
 const About = () => {
   return (
     <>
@@ -13,9 +15,9 @@ const About = () => {
 
           <div className="sm:w-4/5  mb-5">
             <h2 className="sm:text-3xl main-text-color text-2xl font-semibold ">
-              <p>-Tint Zaw Htun</p>
+              <p>-May Phoo Maung</p>
               <ReactTyped
-                strings={["Web Developer", "Front-end", "Back-end"]}
+                strings={["Accountant", "Financial Analyst", "Tax Advisor"]}
                 typeSpeed={120}
                 backSpeed={70}
                 loop
@@ -24,13 +26,14 @@ const About = () => {
             </h2>
             <hr className="sm:w-36 w-20 border-[rgb(224,36,36)] border-b-2 mb-5" />
             <h1 className=" tracking-wider leading-8">
-              As a skilled MERN stack developer, I bring a unique combination of
-              expertise and creativity to the table. I am dedicated to
-              collaborating with your company to achieve exceptional results
-              that align with your goals. From conceptualization to deployment,
-              I focus on delivering top-notch solutions tailored to your
-              clients' specific needs. Explore more about me below and discover
-              the details of the projects I've worked on!
+              As a skilled accountant, I bring a unique blend of expertise and
+              precision to financial management. I am dedicated to collaborating
+              with your company to achieve outstanding financial accuracy and
+              efficiency that align with your objectives. From budgeting to
+              auditing, I focus on delivering top-notch financial solutions
+              tailored to your organization's specific needs. Explore more about
+              my background below and discover the key projects and successes
+              I've contributed to!
             </h1>
           </div>
 
@@ -50,23 +53,29 @@ const About = () => {
           </div>
 
           <div className="sm:flex flex flex-col sm:flex-row sm:flex-wrap">
-            {Data.map((card) => {
-              return (
-                <div key={card.id} className="sm:w-2/6 py-5 sm:px-5">
-                  <div className="bg-white text-black hover:text-red-600 rounded-md hover:bg-zinc-200 transition duration-150 p-5">
-                    <h4>{card.date}</h4>
-                    <div className=" p-3">
-                      <h2 className="font-bold text-xl mb-2 main-text-color">
-                        {card.title}
-                      </h2>
-                      <p className="text-[12px]  leading-8 tracking-wide ">
-                        {card.cate}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+            <p className="text-sm font-thin  leading-8 tracking-wide ">
+              Review, verify, and approve office and operational expenses
+              submitted by the administration, ensuring they align with company
+              policies.Perform regular checks on expenses to ensure accuracy and
+              compliance before finalizing approvals. Warehouse and Admin’s
+              department Expense Management Check and validate expenses related
+              to warehouse operations, maintaining clear records for each
+              transaction.Process supplier invoices and payments, coordinating
+              with the finance team to meet payment deadlines.Liaise with the
+              administration and warehouse teams to clarify expense queries and
+              ensure smooth processing of payments. Work closely with suppliers
+              and internal departments to manage outstanding payments and
+              address any discrepancies. After approval from the regional sale
+              manager , national sale manager and the CEO,the dealer’s order is
+              allowed to be released.And then monitor the credit period and ask
+              for credit and pay the money.In the event of delay in the credit
+              prediod and in the period of policy change, I have to attend a
+              meeting with therelevant seniors. From the logistics side,when the
+              sales order comes in,the due,limit, and approve are asked to the
+              relevant regional accountants who hold the relevant department,
+              and the amount to be paid is calculated.After the invoices are
+              registered in the software,a logistic e-mail is sent back.
+            </p>
           </div>
         </div>
       </div>

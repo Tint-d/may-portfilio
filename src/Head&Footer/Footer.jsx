@@ -31,7 +31,7 @@ const Footer = () => {
         <div>
           <p className="sm:text-[8px] sm:font-semibold md:text-sm text-center main-text-color ">
             Copyright © {new Date().getFullYear()} - All right reserved by
-            TintZawHtun
+            MayPhooMaung
           </p>
         </div>
       </div>
